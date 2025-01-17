@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
+import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@radix-ui/react-accordion";
 import { Slider } from "@radix-ui/react-slider";
 
 const PriceSection = () => {
@@ -14,13 +9,13 @@ const PriceSection = () => {
         <AccordionTrigger className="text-black font-bold text-xl hover:no-underline p-0 py-0.5">
           Price
         </AccordionTrigger>
-        <AccordionContent className="pt-4 overflow-visible" >
+        <AccordionContent className="pt-4 overflow-visible">
+          <label>$</label>
           <Slider
             defaultValue={[50, 200]}
             min={0}
             max={250}
             step={1}
-            label="$"
           />
           <div className="mb-3" />
         </AccordionContent>
