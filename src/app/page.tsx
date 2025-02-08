@@ -1,8 +1,8 @@
 import ProductListSec from "@/components/CardProductItem/ListingProduct";
-import HeroBrandSec from "@/components/homepage/Hero/HeroBrandSec/page";
-import DressStyle from "@/components/homepage/Hero/StyleDress/page";
+import Brands from "@/components/homepage/HeroBrandSec/page";
+import DressStyle from "@/components/homepage/StyleDress/page";
 import Header from "@/components/homepage/Hero/page";
-import Reviews from "@/components/homepage/Hero/Reviews/page";
+import Reviews from "@/components/homepage/Reviews/page";
 import { Product } from "@/APIArray/product.types";
 import { Review } from "@/APIArray/review.types";
 
@@ -157,7 +157,7 @@ export const relatedProductData: Product[] = [
     },
     rating: 5.0,
   },
-  
+
 ];
 
 export const reviewsData: Review[] = [
@@ -387,7 +387,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <HeroBrandSec />
+      <Brands />
       <main className="my-[50px] sm:my-[72px]">
         <ProductListSec
           title="NEW ARRIVALS"

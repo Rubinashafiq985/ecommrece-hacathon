@@ -1,9 +1,9 @@
 'use client';
-import React from "react";
-import BreadcrumbShop from "@/components/shop-page/filters/BreadcrumbShop";
+
+import BreadcrumbShop from "@/components/shop-page/BreadcrumbShop";
 import MobileFilters from "@/components/shop-page/filters/MobileFilters";
 import Filters from "@/components/shop-page/filters";
-import { FiChevronDown, FiChevronUp } from "react-icons/fi";
+import { FiSliders, FiChevronDown, FiChevronUp } from "react-icons/fi";
 import { newArrivalsData, relatedProductData, topSellingData } from "../page";
 import ProductCard from "@/components/CardProductItem/CardItem";
 import { useState } from "react";

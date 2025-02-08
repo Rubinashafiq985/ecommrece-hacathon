@@ -15,7 +15,7 @@ const DressStyle = () => {
         >
           BROWSE BY dress STYLE
         </h2>
-        <div className="flex flex-col justify-center sm:flex-row md:h-[289px] space-y-4 sm:space-y-0 sm:space-x-5 mb-4 sm:mb-5">
+        <div className="flex flex-col sm:flex-row md:h-[289px] space-y-4 sm:space-y-0 sm:space-x-5 mb-4 sm:mb-5">
           <DressStyleCard
             title="Casual"
             url="/shop#casual"
@@ -27,7 +27,7 @@ const DressStyle = () => {
             className="md:max-w-[684px] h-[190px] bg-[url('/images/dress-style-2.png')]"
           />
         </div>
-        <div className="flex flex-col justify-center sm:flex-row md:h-[289px] space-y-5 sm:space-y-0 sm:space-x-5">
+        <div className="flex flex-col sm:flex-row md:h-[289px] space-y-5 sm:space-y-0 sm:space-x-5">
           <DressStyleCard
             title="Party"
             url="/shop#party"

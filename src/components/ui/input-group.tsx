@@ -22,7 +22,7 @@ const InputGroup = ({ className, children }: InputGroupProps) => {
 };
 
 const Input = React.forwardRef<HTMLInputElement, InputTextProps>(
-  (props: InputTextProps, ref: React.Ref<HTMLInputElement>) => {
+  (props: InputTextProps, ref: any) => {
     const { className, ...rest } = props;
 
     return (
@@ -51,5 +51,5 @@ const InputGroupText = ({ className, children }: InputGroupProps) => {
 
 InputGroup.Text = InputGroupText;
 InputGroup.Input = Input;
-Input.displayName = "Input";
+
 export default InputGroup;

@@ -65,7 +65,7 @@ const Reviews = ({ data }: ReviewsProps) => {
           className="relative flex overflow-x-scroll mt-6 scroll-smooth snap-x snap-mandatory"
           style={{ scrollBehavior: "smooth" }}
         >
-          {data.map((review) => (
+          {data.map((review, index) => (
             <div
               key={review.id}
               className="flex-shrink-0 w-full max-w-[400px] mx-auto px-4 snap-start"
